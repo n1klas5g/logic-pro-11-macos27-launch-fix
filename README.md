@@ -2,7 +2,7 @@
 
 A transparent, fail-closed compatibility installer for the Logic Pro 11.2.2 startup failure on macOS 27 caused by the BNNS Graph ABI transition in Apple's Accelerate framework.
 
-> **Status:** validated on Logic Pro 11.2.2 (build 6387), macOS 27.0 (26A428), Apple Silicon, SIP enabled.
+> **Status:** validated on Logic Pro 11.2.2 (build 6387), macOS 27.0.1 (26A434), Apple Silicon, SIP enabled.
 
 ## The problem
 
@@ -44,9 +44,9 @@ Your original Logic installation remains the rollback path.
 | --- | --- |
 | Logic Pro | 11.2.2 |
 | Logic build | 6387 |
-| `MAMachineLearning` SHA-256 | `b7a4e954e202a605af48dc10f963de075def2ecdf4d1c239a7e5022eb3f125da` |
-| macOS | 27.0 |
-| macOS build | 26A428 |
+| `MAMachineLearning` SHA-256 | `7fb4e27890a659e3e4f2188b820180a4a7a8e121cb91419be5dbe62f93969a3a` |
+| macOS | 27.0.1 |
+| macOS build | 26A434 |
 | Host | Apple Silicon / arm64 |
 | SIP | enabled |
 
@@ -166,7 +166,7 @@ At apply time, the installer downloads the pinned release asset from:
 
 - upstream: `NewtonPuff/logic-pro-11-macos-27-bnns-fix`
 - release: `logic-11.2.2-macos27`
-- pinned asset SHA-256: `0a88f151b90b274c48e39f539316cd21665b0610a7de0f09bf3b1d1f15654161`
+- pinned asset SHA-256: `7fb4e27890a659e3e4f2188b820180a4a7a8e121cb91419be5dbe62f93969a3a`
 
 The complete release ZIP is verified before any adapter source is extracted or compiled. You can also provide a locally reviewed adapter source:
 

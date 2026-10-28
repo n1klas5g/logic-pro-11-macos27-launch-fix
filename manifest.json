@@ -14,13 +14,13 @@
     "patched_pre_sign_sha256": "646cd2dc6f1c14621333e35ca51074e8d5005cfe7144c9608ceffe4038d7376a"
   },
   "tested_system": {
-    "macos_version": "27.0",
-    "macos_build": "26A428",
+    "macos_version": "27.0.1",
+    "macos_build": "26A434",
     "host_arch": "arm64"
   },
   "adapter": {
     "release_url": "https://github.com/NewtonPuff/logic-pro-11-macos-27-bnns-fix/releases/download/logic-11.2.2-macos27/Logic11-BNNS-Patcher-release.zip",
-    "release_asset_sha256": "0a88f151b90b274c48e39f539316cd21665b0610a7de0f09bf3b1d1f15654161",
+    "release_asset_sha256": "7fb4e27890a659e3e4f2188b820180a4a7a8e121cb91419be5dbe62f93969a3a",
     "install_name": "@loader_path/BNNSCompat.dylib",
     "legacy_loader_path": "/System/Library/Frameworks/Accelerate.framework/Accelerate",
     "required_exports": [
